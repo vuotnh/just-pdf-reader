@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ai-ebook-reader
+Version: 0.1.0
+Summary: AI Ebook Reader & Vocabulary Learning Platform
+Requires-Python: >=3.11
+Requires-Dist: PySide6==6.7.2
+Requires-Dist: PyMuPDF==1.24.9
+Requires-Dist: SQLAlchemy==2.0.31
+Requires-Dist: alembic==1.13.2
+Provides-Extra: dev
+Requires-Dist: pytest==8.2.2; extra == "dev"
+Requires-Dist: hypothesis==6.108.5; extra == "dev"
+Requires-Dist: pytest-asyncio==0.23.8; extra == "dev"
+Requires-Dist: pytest-qt==4.4.0; extra == "dev"

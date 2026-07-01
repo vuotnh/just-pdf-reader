@@ -1,0 +1,2 @@
+[console_scripts]
+ai-ebook-reader = src.main:main
