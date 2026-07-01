@@ -9,22 +9,6 @@ pip install pyinstaller==6.10.0
 ```
 
 ### Build Portable (thư mục)
-
-```bash
-pyinstaller --name "AI-Ebook-Reader" ^
-    --windowed ^
-    --icon=resources/icon.ico ^
-    --add-data "src/presentation/qml;src/presentation/qml" ^
-    --add-data "migrations;migrations" ^
-    --add-data "alembic.ini;." ^
-    --hidden-import PySide6.QtWebEngineQuick ^
-    --hidden-import PySide6.QtWebEngineCore ^
-    --hidden-import PySide6.QtWebChannel ^
-    --collect-all PySide6 ^
-    --noconfirm ^
-    src/main.py
-```
-
 ```powershell
 pyinstaller `
     --name "AI-Ebook-Reader" `
